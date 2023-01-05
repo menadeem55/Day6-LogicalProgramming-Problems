@@ -11,7 +11,7 @@ public class FibonacciSeries {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter number");
 
-		int size = scanner.nextInt(); // declare and initialize the number
+		int size = scanner.nextInt(); // declare and initialize the number.
 		int num1 = 0, num2 = 1;
 		int num3;
 
