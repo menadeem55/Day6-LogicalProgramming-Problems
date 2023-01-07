@@ -16,7 +16,7 @@ public class VendingMachine {
 			System.out.println("Amount Left: " + amount);
 			while (amount >= currency[index]) {		
 				amount = amount - currency[index];
-				noteCounter++;
+				noteCounter++;		//increasing 
 
 			}
 			System.out.println(currency[index] + " * " + noteCounter);
