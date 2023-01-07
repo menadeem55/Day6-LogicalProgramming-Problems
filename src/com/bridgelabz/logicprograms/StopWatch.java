@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class StopWatch {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter 1 to start Watch");
+		System.out.println("Enter 1 to start Watch");	//
 		int watch = sc.nextInt();
 		long startMillis = System.currentTimeMillis();
 		System.out.println("StopWatch stared now At- " + startMillis);
